@@ -23,7 +23,6 @@ header {
     justify-content: space-between;
     align-items: center;
 
-    
 }
 
 .na_group{
@@ -44,6 +43,7 @@ header {
     
 }
 
+/* header search */
 .search {
     position: relative;
     top: 0px;
@@ -55,22 +55,28 @@ nav {
     align-items: center;
 }
 
+/* menu */
 .menu {
    display: flex;
    justify-content: space-between;
    align-items: center;
-
-   
 
    width: 300px;
    height: 10px;
 
 }
 
-.menu li {
+.menu_over {
     color: var(--text-color);
+    cursor: pointer;
 }
 
+/* js menu_over_out */
+.menu_over_out {
+    color: rgba(255,255,255,0.7);
+}
+
+/* main */
 main {
     margin: 0px auto;
     margin-top: 40px;
@@ -79,6 +85,7 @@ main {
     height: 870px;
 }
 
+/* main1 */
 .main_st {
     display: flex;
     flex-direction: column;
@@ -98,10 +105,20 @@ h1 {
     color: var(--href-color)
 }
 
+.span_tag {
+    cursor: pointer;
+}
+
+/* js line*/
+.line {
+    text-decoration: underline;
+}
+
 hr {
     margin: 15px 0;
 }
 
+/* main 2 */
 .main_nd {
     display: flex;
     flex-direction: column;
@@ -134,12 +151,13 @@ hr {
     height: 32px;
     
     background-color: var(--box-color);
+
+    cursor: pointer;
 }
 
 .slash{
     margin: 0px 8px;
-
-    font-size: 24px;
+    font-size: 20px;
 }
 
 .Repository_name {
@@ -207,6 +225,7 @@ hr {
     background-color: var(--box-color);
 }
 
+/* main3 */
 section {
     display: flex;
     flex-direction: row;
@@ -233,6 +252,7 @@ section {
     font-weight: 500;
 }
 
+/* main 4 */
 .main_four{
     display: flex;
     flex-direction: column;
@@ -292,6 +312,8 @@ section {
 
     width: 175px;
     height: 28px;
+
+    cursor: pointer;
 }
 
 .license {
@@ -324,6 +346,12 @@ section {
 
     width: 112px;
     height: 28px;
+
+    cursor: pointer;
+}
+
+.selected {
+    background-color: blue;
 }
 
 .warning {
@@ -352,6 +380,7 @@ button {
 
 }
 
+/* footer */
 footer {
     margin: 0px auto;
     display: flex;
